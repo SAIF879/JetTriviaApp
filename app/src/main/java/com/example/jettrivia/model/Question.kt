@@ -1,3 +1,3 @@
-package com.example.jettrivia.data
+package com.example.jettrivia.model
 
 class Question : ArrayList<QuestionItem>()

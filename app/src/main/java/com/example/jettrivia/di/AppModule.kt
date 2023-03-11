@@ -1,6 +1,5 @@
 package com.example.jettrivia.di
 
-import com.example.jettrivia.data.Question
 import com.example.jettrivia.network.QuestionApi
 import com.example.jettrivia.util.Constants.BASE_URL
 import dagger.Module
@@ -9,7 +8,6 @@ import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
-import retrofit2.create
 import javax.inject.Singleton
 
 
